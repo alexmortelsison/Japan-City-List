@@ -13,6 +13,7 @@
 		18698B1B2BB94CDE00FB0196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18698B1A2BB94CDE00FB0196 /* Preview Assets.xcassets */; };
 		18698B232BB94D6C00FB0196 /* CIties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18698B222BB94D6C00FB0196 /* CIties.swift */; };
 		18698B272BB954ED00FB0196 /* CityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18698B262BB954ED00FB0196 /* CityDetailView.swift */; };
+		18698B2A2BB95D7D00FB0196 /* CityCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18698B292BB95D7D00FB0196 /* CityCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		18698B1A2BB94CDE00FB0196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18698B222BB94D6C00FB0196 /* CIties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIties.swift; sourceTree = "<group>"; };
 		18698B262BB954ED00FB0196 /* CityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailView.swift; sourceTree = "<group>"; };
+		18698B292BB95D7D00FB0196 /* CityCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		18698B122BB94CDC00FB0196 /* Japan City List */ = {
 			isa = PBXGroup;
 			children = (
+				18698B282BB95D5300FB0196 /* Components */,
 				18698B212BB94D4A00FB0196 /* Models */,
 				18698B132BB94CDC00FB0196 /* Japan_City_ListApp.swift */,
 				18698B152BB94CDC00FB0196 /* ContentView.swift */,
@@ -79,6 +82,14 @@
 				18698B222BB94D6C00FB0196 /* CIties.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		18698B282BB95D5300FB0196 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				18698B292BB95D7D00FB0196 /* CityCellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			files = (
 				18698B162BB94CDC00FB0196 /* ContentView.swift in Sources */,
 				18698B142BB94CDC00FB0196 /* Japan_City_ListApp.swift in Sources */,
+				18698B2A2BB95D7D00FB0196 /* CityCellView.swift in Sources */,
 				18698B272BB954ED00FB0196 /* CityDetailView.swift in Sources */,
 				18698B232BB94D6C00FB0196 /* CIties.swift in Sources */,
 			);
